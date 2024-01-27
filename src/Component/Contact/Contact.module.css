@@ -1,0 +1,10 @@
+.rotate{
+    rotate: 270deg;
+}
+.bg{
+  background: rgb(19,16,44);
+background: linear-gradient(90deg, rgba(19,16,44,1) 0%, rgba(16,12,57,1) 61%);
+}
+.but{
+    background-color: #433ca4;
+}

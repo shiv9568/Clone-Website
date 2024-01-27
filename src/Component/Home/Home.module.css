@@ -1,0 +1,27 @@
+.right{
+   background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(13,11,32,1) 29%, rgba(27,25,65,1) 63%);
+}
+.bg{
+     background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(13,11,32,1) 29%, rgba(27,25,65,1) 63%);
+}
+.image{
+     animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 40px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}

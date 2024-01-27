@@ -1,0 +1,24 @@
+.button{
+    background-color: #453da6;
+}
+.live:hover{
+    background-color: white;
+    color: #453da6;
+}
+.live{
+    background-color: #0a0919;
+    
+
+}
+.color{
+    background: rgb(26,24,64);
+background: linear-gradient(180deg, rgba(26,24,64,1) 0%, rgba(18,15,42,1) 80%, rgba(0,0,0,1) 91%);
+}
+.rotate {
+    rotate: 270deg;
+    
+}
+.bg{
+   background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(23,21,58,1) 100%);
+}
